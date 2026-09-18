@@ -7,42 +7,183 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>School News | Our Primary School</title>
+    <title>School News | QII Primary School</title>
 
+    <meta name="description"
+          content="Read the latest news, announcements and updates from Quthing Inclusive International Primary School.">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Main CSS -->
     <link rel="stylesheet" href="css/style.css">
 
 </head>
 
+
 <body>
+
+
+<!-- =====================================================
+     TOP BAR
+===================================================== -->
+
+<div class="top-bar">
+
+    <div class="container top-content">
+
+        <div class="top-contact">
+
+            <span>
+                <i class="fas fa-phone"></i>
+                +266 6366 3033
+            </span>
+
+            <span>
+                <i class="fas fa-envelope"></i>
+                Phetoanejulia@gmail.com
+            </span>
+
+        </div>
+
+
+        <div class="social-links">
+
+            <!-- Facebook -->
+
+            <a href="https://web.facebook.com/profile.php?id=61552225935610&sk=photos"
+               target="_blank"
+               aria-label="Facebook">
+
+                <i class="fab fa-facebook-f"></i>
+
+            </a>
+
+
+            <!-- Instagram -->
+
+            <a href="#"
+               aria-label="Instagram">
+
+                <i class="fab fa-instagram"></i>
+
+            </a>
+
+
+            <!-- YouTube -->
+
+            <a href="#"
+               aria-label="YouTube">
+
+                <i class="fab fa-youtube"></i>
+
+            </a>
+
+
+            <!-- WhatsApp -->
+
+            <a href="https://wa.me/26657014703"
+               target="_blank"
+               aria-label="WhatsApp"
+               class="whatsapp-button">
+
+                <i class="fab fa-whatsapp"></i>
+
+                <span>
+                    Chat with us
+                </span>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- =====================================================
+     NAVIGATION
+===================================================== -->
 
 <header class="header">
 
     <div class="container nav-container">
 
+
+        <!-- School Logo -->
+
         <a href="index.html" class="logo">
 
-            <img src="images/School Logo.jpeg" alt="School Logo">
+            <img src="images/School Logo.jpeg"
+                 alt="QII Primary School Logo">
 
             <div>
-             <strong>QUTHING INCLUSIVE INTERNATIONAL PRIMARY SCHOOL</strong>
-<small>QII P.S. • Learning • Growing • Succeeding</small>
+
+                <strong>
+                    QUTHING INCLUSIVE INTERNATIONAL PRIMARY SCHOOL
+                </strong>
+
+                <small>
+                    QII P.S. • Learning • Growing • Succeeding
+                </small>
+
             </div>
 
         </a>
 
-        <button class="menu-toggle" id="menuToggle">
-            ☰
+
+        <!-- Mobile Menu -->
+
+        <button class="menu-toggle"
+                id="menuToggle"
+                aria-label="Open navigation menu">
+
+            <i class="fas fa-bars"></i>
+
         </button>
+
+
+        <!-- Navigation -->
 
         <nav id="mainNav">
 
-            <a href="index.html">Home</a>
-            <a href="about.html">About </a>
-            <a href="academics.html">Academics</a>
-            <a href="admissions.html">Admissions</a>
-            <a href="activities.html">Activities</a>
-            <a href="news.html" class="active">News</a>
-            <a href="contact.html" class="nav-button">Contact </a>
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="about.html">
+                About
+            </a>
+
+            <a href="academics.html">
+                Academics
+            </a>
+
+            <a href="admissions.html">
+                Admissions
+            </a>
+
+            <a href="activities.html">
+                Activities
+            </a>
+
+            <a href="news.html" class="active">
+                News
+            </a>
+
+            <a href="contact.html" class="nav-button">
+                Contact
+            </a>
 
         </nav>
 
@@ -51,11 +192,22 @@
 </header>
 
 
+
+<!-- =====================================================
+     PAGE HERO
+===================================================== -->
+
 <section class="cta">
 
     <div class="container">
 
-        <h2>School News</h2>
+        <span class="section-label">
+            KEEP UP TO DATE
+        </span>
+
+        <h1>
+            School News
+        </h1>
 
         <p>
             Keep up with what's happening at our school.
@@ -66,64 +218,128 @@
 </section>
 
 
+
+<!-- =====================================================
+     SCHOOL UPDATES
+===================================================== -->
+
 <section class="section">
 
     <div class="container">
 
+
         <div class="section-heading">
 
-            <span class="section-label">LATEST</span>
+            <span class="section-label">
+                LATEST
+            </span>
 
-            <h2>School Updates</h2>
+            <h2>
+                School Updates
+            </h2>
+
+            <p>
+                Stay informed about important school
+                announcements, events and activities.
+            </p>
 
         </div>
 
 
+
         <div class="feature-grid">
+
+
+            <!-- NEWS 1 -->
 
             <div class="feature-card">
 
-                <h3>Welcome Back Learners</h3>
+                <div class="feature-icon">
+
+                    <i class="fas fa-school"></i>
+
+                </div>
+
+                <h3>
+                    Welcome Back Learners
+                </h3>
 
                 <p>
                     We look forward to welcoming our learners
-                    back for another exciting term.
+                    back for another exciting term of learning,
+                    growth and new opportunities.
                 </p>
 
             </div>
 
 
+
+            <!-- NEWS 2 -->
+
             <div class="feature-card">
 
-                <h3>Sports Day</h3>
+                <div class="feature-icon">
+
+                    <i class="fas fa-futbol"></i>
+
+                </div>
+
+                <h3>
+                    Sports Day
+                </h3>
 
                 <p>
-                    Our annual sports activities bring learners,
-                    teachers and families together.
+                    Our sporting activities bring learners,
+                    teachers and families together while
+                    encouraging teamwork and healthy living.
                 </p>
 
             </div>
 
 
+
+            <!-- NEWS 3 -->
+
             <div class="feature-card">
 
-                <h3>Parents Meeting</h3>
+                <div class="feature-icon">
+
+                    <i class="fas fa-users"></i>
+
+                </div>
+
+                <h3>
+                    Parents Meeting
+                </h3>
 
                 <p>
-                    Parents are encouraged to participate in
-                    school meetings and activities.
+                    Parents and guardians are encouraged to
+                    participate in school meetings and activities
+                    that support our learners.
                 </p>
 
             </div>
 
 
+
+            <!-- NEWS 4 -->
+
             <div class="feature-card">
 
-                <h3>School Events</h3>
+                <div class="feature-icon">
+
+                    <i class="fas fa-calendar-days"></i>
+
+                </div>
+
+                <h3>
+                    School Events
+                </h3>
 
                 <p>
                     Check this page regularly for upcoming
-                    school events and announcements.
+                    school events, announcements and important
+                    information.
                 </p>
 
             </div>
@@ -135,7 +351,411 @@
 </section>
 
 
+
+<!-- =====================================================
+     STAY CONNECTED
+===================================================== -->
+
+<section class="section">
+
+    <div class="container">
+
+
+        <div class="section-heading">
+
+            <span class="section-label">
+                STAY CONNECTED
+            </span>
+
+            <h2>
+                Follow Our School
+            </h2>
+
+            <p>
+                Stay connected with QII Primary School for
+                school news, activities, announcements and
+                community updates.
+            </p>
+
+        </div>
+
+
+        <div class="feature-grid">
+
+
+            <!-- SCHOOL NEWS -->
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+
+                    <i class="fas fa-bullhorn"></i>
+
+                </div>
+
+                <h3>
+                    Announcements
+                </h3>
+
+                <p>
+                    Important information and school
+                    announcements will be shared with
+                    parents and the school community.
+                </p>
+
+            </div>
+
+
+
+            <!-- ACTIVITIES -->
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+
+                    <i class="fas fa-calendar-check"></i>
+
+                </div>
+
+                <h3>
+                    School Activities
+                </h3>
+
+                <p>
+                    Follow our updates to keep informed
+                    about activities happening throughout
+                    the school year.
+                </p>
+
+            </div>
+
+
+
+            <!-- COMMUNITY -->
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+
+                    <i class="fas fa-people-group"></i>
+
+                </div>
+
+                <h3>
+                    School Community
+                </h3>
+
+                <p>
+                    We value communication and partnership
+                    between the school, learners and families.
+                </p>
+
+            </div>
+
+
+
+            <!-- WHATSAPP -->
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+
+                    <i class="fab fa-whatsapp"></i>
+
+                </div>
+
+                <h3>
+                    WhatsApp
+                </h3>
+
+                <p>
+                    Contact the school directly through
+                    WhatsApp if you have questions or need
+                    more information.
+                </p>
+
+                <br>
+
+                <a href="https://wa.me/26657014703"
+                   target="_blank"
+                   class="btn btn-primary">
+
+                    <i class="fab fa-whatsapp"></i>
+                    Chat With Us
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CONTACT CTA
+===================================================== -->
+
+<section class="cta">
+
+    <div class="container">
+
+        <h2>
+            Have A Question?
+        </h2>
+
+        <p>
+            Contact QII Primary School for more information
+            about our school, activities and upcoming events.
+        </p>
+
+
+        <div class="hero-buttons">
+
+
+            <!-- WhatsApp -->
+
+            <a href="https://wa.me/26657014703"
+               target="_blank"
+               class="btn btn-light">
+
+                <i class="fab fa-whatsapp"></i>
+                WhatsApp Us
+
+            </a>
+
+
+            <!-- Contact -->
+
+            <a href="contact.html"
+               class="btn btn-light">
+
+                Contact Us
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer class="footer">
+
+    <div class="container footer-grid">
+
+
+        <!-- ABOUT -->
+
+        <div class="footer-about">
+
+            <img src="images/School Logo.jpeg"
+                 alt="QII Primary School Logo">
+
+
+            <p>
+                A caring learning community committed to
+                helping every child learn, grow and succeed.
+            </p>
+
+
+            <!-- SOCIAL MEDIA -->
+
+            <div class="footer-social">
+
+
+                <!-- Facebook -->
+
+                <a href="https://web.facebook.com/profile.php?id=61552225935610&sk=photos"
+                   target="_blank"
+                   aria-label="Facebook">
+
+                    <i class="fab fa-facebook-f"></i>
+
+                </a>
+
+
+                <!-- Instagram -->
+
+                <a href="#"
+                   aria-label="Instagram">
+
+                    <i class="fab fa-instagram"></i>
+
+                </a>
+
+
+                <!-- YouTube -->
+
+                <a href="#"
+                   aria-label="YouTube">
+
+                    <i class="fab fa-youtube"></i>
+
+                </a>
+
+
+                <!-- WhatsApp -->
+
+                <a href="https://wa.me/26657014703"
+                   target="_blank"
+                   aria-label="WhatsApp">
+
+                    <i class="fab fa-whatsapp"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- QUICK LINKS -->
+
+        <div>
+
+            <h3>
+                Quick Links
+            </h3>
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="about.html">
+                About Us
+            </a>
+
+            <a href="academics.html">
+                Academics
+            </a>
+
+            <a href="admissions.html">
+                Admissions
+            </a>
+
+        </div>
+
+
+
+        <!-- SCHOOL -->
+
+        <div>
+
+            <h3>
+                School
+            </h3>
+
+            <a href="activities.html">
+                Activities
+            </a>
+
+            <a href="news.html">
+                News
+            </a>
+
+            <a href="contact.html">
+                Contact Us
+            </a>
+
+        </div>
+
+
+
+        <!-- CONTACT -->
+
+        <div>
+
+            <h3>
+                Contact Us
+            </h3>
+
+
+            <p>
+
+                <i class="fas fa-location-dot"></i>
+
+                Masitise Motsemocha pela koporasi
+
+            </p>
+
+
+            <p>
+
+                <i class="fas fa-phone"></i>
+
+                +266 6366 3033
+
+            </p>
+
+
+            <p>
+
+                <i class="fas fa-envelope"></i>
+
+                Phetoanejulia@gmail.com
+
+            </p>
+
+
+            <p>
+
+                <i class="fab fa-whatsapp"></i>
+
+                +266 5701 4703
+
+            </p>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- COPYRIGHT -->
+
+    <div class="copyright">
+
+        <p>
+            © 2026 Quthing Inclusive International Primary School
+            - QII P.S. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+
+<!-- =====================================================
+     FLOATING WHATSAPP
+===================================================== -->
+
+<a href="https://wa.me/26657014703"
+   target="_blank"
+   class="floating-whatsapp"
+   aria-label="Chat with QII Primary School on WhatsApp">
+
+    <i class="fab fa-whatsapp"></i>
+
+</a>
+
+
+
+<!-- JavaScript -->
+
 <script src="js/script.js"></script>
+
 
 </body>
 
